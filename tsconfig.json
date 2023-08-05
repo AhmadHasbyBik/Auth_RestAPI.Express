@@ -1,13 +1,11 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "baseUrl": "src",
-        "outDir": "dist",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "esModuleInterop": true
-    },
-    "include": ["src/**/*"],
-    "exclude": ["**/*.spec.ts"]
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+  },
+  "include": ["src/**/*"],
 }
